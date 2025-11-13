@@ -28,7 +28,7 @@ const FAQ = () => {
     {
       question: 'How do I get started?',
       answer:
-        'Book an intro call using the button above. We'll discuss your needs, provide a 60-second Loom audit if requested, and recommend the best package. If we're a good fit, we'll send over the MoU and get started within 48 hours.',
+        "Book an intro call using the button above. We'll discuss your needs, provide a 60-second Loom audit if requested, and recommend the best package. If we're a good fit, we'll send over the MoU and get started within 48 hours.",
     },
   ]
 

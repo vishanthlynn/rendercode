@@ -1,8 +1,8 @@
 {
-  "name": "framestack-studios",
+  "name": "rendercode-studios",
   "version": "1.0.0",
   "type": "module",
-  "description": "Production-ready landing page for FrameStack Studios digital agency",
+  "description": "Production-ready landing page for Rendercode Studios digital agency",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

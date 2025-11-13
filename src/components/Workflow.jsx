@@ -28,7 +28,7 @@ const Workflow = () => {
       icon: TrendingUp,
       title: 'Growth',
       description:
-        'Monthly strategy calls and performance reviews ensure you're always moving forward, not just maintaining.',
+        "Monthly strategy calls and performance reviews ensure you're always moving forward, not just maintaining.",
     },
   ]
 

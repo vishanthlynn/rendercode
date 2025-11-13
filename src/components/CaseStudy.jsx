@@ -55,7 +55,7 @@ const CaseStudy = () => {
 
           <div className="border-l-4 border-primary-600 pl-6">
             <blockquote className="text-lg text-gray-700 italic mb-4">
-              "FrameStack didn't just build us a website—they built us a growth
+              "Rendercode Studios didn't just build us a website—they built us a growth
               engine. The Loom audit showed us exactly what was wrong, and the
               final product exceeded our expectations. Our conversion rate
               doubled."

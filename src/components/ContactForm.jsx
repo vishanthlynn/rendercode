@@ -53,8 +53,8 @@ const ContactForm = ({ onClose, packageSelect }) => {
     setSubmitStatus(null)
 
     try {
-      // In development, this will fail unless you have a local server
-      // In production (Vercel/Netlify), this will work automatically
+      // In development, this is mocked by Vite plugin
+      // In production (Vercel/Netlify), this uses the serverless function
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {

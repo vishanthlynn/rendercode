@@ -18,7 +18,7 @@ describe('Header', () => {
       />
     )
 
-    expect(screen.getByText('FrameStack Studios')).toBeInTheDocument()
+    expect(screen.getByText('Rendercode Studios')).toBeInTheDocument()
     expect(screen.getByText('Packages')).toBeInTheDocument()
     expect(screen.getByText('How it Works')).toBeInTheDocument()
     expect(screen.getByText('Case Study')).toBeInTheDocument()
@@ -84,7 +84,7 @@ describe('Header', () => {
 
     expect(screen.getByRole('banner')).toBeInTheDocument()
     expect(screen.getByLabelText('Main navigation')).toBeInTheDocument()
-    expect(screen.getByLabelText('FrameStack Studios home')).toBeInTheDocument()
+    expect(screen.getByLabelText('Rendercode Studios home')).toBeInTheDocument()
   })
 })
 

@@ -1,6 +1,6 @@
-# FrameStack Studios Landing Page
+# Rendercode Studios Landing Page
 
-A production-ready, single-page website for FrameStack Studios digital agency. Built with React, Vite, and Tailwind CSS.
+A production-ready, single-page website for Rendercode Studios digital agency. Built with React, Vite, and Tailwind CSS.
 
 ## 🎯 Marketing Copy (Hero Section)
 
@@ -89,15 +89,15 @@ rendercode/
 1. **Logo**: Update the logo in `src/components/Header.jsx` (line ~25)
    ```jsx
    // Replace this:
-   FrameStack Studios
+   Rendercode Studios
    // With your logo image or text
    ```
 
-2. **Site-wide**: Search and replace "FrameStack Studios" across all files:
+2. **Site-wide**: Search and replace "Rendercode Studios" across all files if you want to rebrand:
    ```bash
    # Use your IDE's find and replace feature
    # Or use command line:
-   find src -type f -name "*.jsx" -exec sed -i '' 's/FrameStack Studios/YourBrand/g' {} +
+   find src -type f -name "*.jsx" -exec sed -i '' 's/Rendercode Studios/YourBrand/g' {} +
    ```
 
 ### Update Brand Colors
@@ -180,7 +180,7 @@ The contact form automatically uses `/api/contact.js` when deployed to Vercel. T
    const sgMail = require('@sendgrid/mail')
    sgMail.setApiKey(process.env.SENDGRID_API_KEY)
    await sgMail.send({
-     to: 'hello@framestackstudios.com',
+     to: 'hello@rendercodestudios.com',
      from: email,
      subject: 'New Contact Form Submission',
      text: message,

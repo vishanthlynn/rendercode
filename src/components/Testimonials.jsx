@@ -2,7 +2,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote:
-        'FrameStack transformed our online presence. The technical audit was eye-opening, and the execution was flawless.',
+        'Rendercode Studios transformed our online presence. The technical audit was eye-opening, and the execution was flawless.',
       author: 'Raj Patel',
       role: 'CTO, TechFlow',
       company: 'TechFlow',

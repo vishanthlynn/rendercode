@@ -37,7 +37,7 @@ export default async function handler(req, res) {
     // 2. Email service (SendGrid, Mailgun, etc.)
     //    const sgMail = require('@sendgrid/mail')
     //    sgMail.setApiKey(process.env.SENDGRID_API_KEY)
-    //    await sgMail.send({ to: 'hello@framestackstudios.com', from: email, subject: 'New Contact Form Submission', text: message })
+    //    await sgMail.send({ to: 'hello@rendercodestudios.com', from: email, subject: 'New Contact Form Submission', text: message })
     //
     // 3. CRM integration (HubSpot, Salesforce, etc.)
     // 4. Database storage (Firebase, Supabase, etc.)

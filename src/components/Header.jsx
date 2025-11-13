@@ -41,10 +41,10 @@ const Header = ({ scrollToSection, openContactModal }) => {
             <button
               onClick={() => scrollToSection('hero')}
               className="text-2xl font-bold text-gray-900 hover:text-primary-600 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded"
-              aria-label="FrameStack Studios home"
+              aria-label="Rendercode Studios home"
             >
               {/* Replace this text with your logo image/component */}
-              FrameStack Studios
+              Rendercode Studios
             </button>
           </div>
 
