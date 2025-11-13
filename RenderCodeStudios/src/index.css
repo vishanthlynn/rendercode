@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .logo-sixcaps {
+    font-family: 'Six Caps', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background: linear-gradient(90deg, #574851 0%, #95A8B1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 0.08em;
+  }
+  
+  @media (max-width: 768px) {
+    .logo-sixcaps {
+      letter-spacing: 0.06em;
+    }
+  }
+}
